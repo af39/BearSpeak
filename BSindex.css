@@ -1,0 +1,38 @@
+
+#container{
+    position: relative;
+    width: 500px;
+    height: 320px;
+    margin: 20px;
+
+}
+#main_image{
+    width: 100%;
+    height: 100%;
+}
+#overlay_image{
+    position: absolute;
+    top: 82%;
+    left: 31%;
+    width: 460px;
+    height: 50px;
+    background: rgb(76, 52, 39);
+}
+/* TEST */
+.wrapper {
+    text-align: center;
+}
+.button{
+    position:absolute;
+    right:37%;
+    display: block;
+    height: 100px;
+    width: 300px;
+    /*float: center;*/
+    background: rgb(95, 28, 12);
+    border: 2px solid rgba(33, 68, 72, 0.59);
+    color: rgb(181, 164, 150);
+    text-align: center;
+    font: bold 2em/100px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+}

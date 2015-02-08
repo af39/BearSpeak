@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> BearSpeak (BS)</title>
+	<link type="text/css" rel="stylesheet" href="BSIndex.css"/>
+    <script src="BSmain.js"></script>
+</head>
+<body style="background-color: rgb(76, 52, 39)";>
+
+	<div id="container" style="width:100%"; "text-align:center">
+    	<div id="main_image" align="center">
+    		<img src="http://media.glassdoor.com/m/11790/brown-university-office.jpg"/>
+    	</div>
+    	<div id="overlay_image">
+            <p style="text-align:center"; "color: rgb(76, 52, 39)"; "font-family: Helvetica";>
+                What do Brown students say?
+            </p>
+    	</div>
+	</div>
+
+<!--Start Button-->
+
+<div class="wrapper">
+    <button class="button"; "align:center"; onclick="myFunction()" class="button">
+        Ask Bruno!
+    </button>
+</div>
+
+
+<p id="demo" style="text-align: center";></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("demo")
+    x.innerHTML = Math.floor((Math.random() * 100) + 1);
+}
+</script>
+
+</body>
+</html>
